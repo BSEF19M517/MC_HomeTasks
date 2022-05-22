@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">HW</string>
+    <string name="login">LogIn</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="user_password">Enter Password</string>
+    <string name="login_btn">LogIn</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="calculator">Calculator</string>
+    <string name="enter_values">Enter values</string>
+
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+
+    <string name="button_add">+</string>
+    <string name="button_sub">-</string>
+    <string name="button_mul">*</string>
+    <string name="button_div">/</string>
+    <string name="button_eq">=</string>
+    <string name="button_clear">C</string>
+    <string name="button_dot">.</string>
+
+
+    <string name="todo">My ToDos</string>
+    <string name="user">User Name: Maria&#xA;User ID:bsef19m517</string>
+    <string name="todo1">Offer Prayer</string>
+    <string name="todo2">Read Al-Quran</string>
+    <string name="todo3">House Chores</string>
+    <string name="todo4">Spend time with family</string>
+    <string name="todo5">Screens of MC</string>
+    <string name="todo6">Upload repo link</string>
+    <string name="todo7">Self Care</string>
+    <string name="pic">Maria</string>
+</resources>
