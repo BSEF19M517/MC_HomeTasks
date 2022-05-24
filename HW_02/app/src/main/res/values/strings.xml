@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alphabets</string>
+    <string name="home_lesson">Lessons</string>
+    <string name="home_exam">Exam</string>
+    <string name="home_repo">Repository</string>
+
+    <string name="home_name">Maria</string>
+    <string name="home_rn">Bsef19m517</string>
+</resources>
