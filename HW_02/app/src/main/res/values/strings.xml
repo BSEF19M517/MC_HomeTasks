@@ -6,4 +6,32 @@
 
     <string name="home_name">Maria</string>
     <string name="home_rn">Bsef19m517</string>
+
+    <string name="lesson_A">A</string>
+    <string name="lesson_B">B</string>
+    <string name="lesson_C">C</string>
+    <string name="lesson_D">D</string>
+    <string name="lesson_E">E</string>
+    <string name="lesson_F">F</string>
+    <string name="lesson_G">G</string>
+    <string name="lesson_H">H</string>
+    <string name="lesson_I">I</string>
+    <string name="lesson_J">J</string>
+    <string name="lesson_K">K</string>
+    <string name="lesson_L">L</string>
+    <string name="lesson_M">M</string>
+    <string name="lesson_N">N</string>
+    <string name="lesson_O">O</string>
+    <string name="lesson_P">P</string>
+    <string name="lesson_Q">Q</string>
+    <string name="lesson_R">R</string>
+    <string name="lesson_S">S</string>
+    <string name="lesson_T">T</string>
+    <string name="lesson_U">U</string>
+    <string name="lesson_V">V</string>
+    <string name="lesson_W">W</string>
+    <string name="lesson_X">X</string>
+    <string name="lesson_Y">Y</string>
+    <string name="lesson_Z">Z</string>
+
 </resources>

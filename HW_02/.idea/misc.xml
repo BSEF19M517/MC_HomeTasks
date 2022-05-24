@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout-land/activity_lesson_one.xml" value="0.2838541666666667" />
         <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout-land/activity_main.xml" value="0.271875" />
         <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout/activity_exam.xml" value="0.19322916666666667" />
-        <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout/activity_lesson_one.xml" value="0.19322916666666667" />
+        <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout/activity_lesson_one.xml" value="0.33" />
+        <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout/activity_lesson_two.xml" value="0.25" />
         <entry key="..\:/CourseBooks/6th_Semester/MC/code/MC_HomeTasks/HW_02/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
