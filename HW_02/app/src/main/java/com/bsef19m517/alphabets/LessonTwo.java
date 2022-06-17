@@ -21,109 +21,111 @@ public class LessonTwo extends AppCompatActivity {
         Intent intent = getIntent();
         String name = intent.getStringExtra("NAME");
 
-        if(name.equals("A")){
-            uri = "@drawable/alligator";
-            animal = "Alligator";
-        }
-        else if(name.equals("B")){
-            uri = "@drawable/bear";
-            animal = "Bear";
-        }
-        else if(name.equals("C")){
-            uri = "@drawable/cat";
-            animal = "Cat";
-        }
-        else if(name.equals("D")){
-            uri = "@drawable/dog";
-            animal = "Dog";
-        }
-        else if(name.equals("E")){
-            uri = "@drawable/elephant";
-            animal = "Elephant";
-        }
-        else if(name.equals("F")){
-            uri = "@drawable/fox";
-            animal = "Fox";
-        }
-        else if(name.equals("G")){
-            uri = "@drawable/giraffe";
-            animal = "Giraffe";
-        }
-        else if(name.equals("H")){
-            uri = "@drawable/horse";
-            animal = "Horse";
-        }
-        else if(name.equals("I")){
-            uri = "@drawable/iguana";
-            animal = "Iguana";
-        }
-        else if(name.equals("J")){
-            uri = "@drawable/jellyfish";
-            animal = "Jellyfish";
-        }
-        else if(name.equals("K")){
-            uri = "@drawable/koala";
-            animal = "Koala";
-        }
-        else if(name.equals("L")){
-            uri = "@drawable/lion";
-            animal = "Lion";
-        }
-        else if(name.equals("M")){
-            uri = "@drawable/monkey";
-            animal = "Monkey";
-        }
-        else if(name.equals("N")){
-            uri = "@drawable/newt";
-            animal = "Newt";
-        }
-        else if(name.equals("O")){
-            uri = "@drawable/owl";
-            animal = "Owl";
-        }
-        else if(name.equals("P")){
-            uri = "@drawable/pig";
-            animal = "Pig";
-        }
-        else if(name.equals("Q")){
-            uri = "@drawable/quail";
-            animal = "Quail";
-        }
-        else if(name.equals("R")){
-            uri = "@drawable/raccoon";
-            animal = "Raccoon";
-        }
-        else if(name.equals("S")){
-            uri = "@drawable/seagull";
-            animal = "Seagull";
-        }
-        else if(name.equals("T")){
-            uri = "@drawable/tiger";
-            animal = "Tiger";
-        }
-        else if(name.equals("U")){
-            uri = "@drawable/urchin";
-            animal = "Urchin";
-        }
-        else if(name.equals("V")){
-            uri = "@drawable/vulture";
-            animal = "Vulture";
-        }
-        else if(name.equals("W")){
-            uri = "@drawable/whale";
-            animal = "Whale";
-        }
-        else if(name.equals("X")){
-            uri = "@drawable/xrayfish";
-            animal = "X-ray Fish";
-        }
-        else if(name.equals("Y")){
-            uri = "@drawable/yak";
-            animal = "Yak";
-        }
-        else if(name.equals("Z")){
-            uri = "@drawable/zebra";
-            animal = "Zebra";
+        switch (name) {
+            case "A":
+                uri = "@drawable/alligator";
+                animal = "Alligator";
+                break;
+            case "B":
+                uri = "@drawable/bear";
+                animal = "Bear";
+                break;
+            case "C":
+                uri = "@drawable/cat";
+                animal = "Cat";
+                break;
+            case "D":
+                uri = "@drawable/dog";
+                animal = "Dog";
+                break;
+            case "E":
+                uri = "@drawable/elephant";
+                animal = "Elephant";
+                break;
+            case "F":
+                uri = "@drawable/fox";
+                animal = "Fox";
+                break;
+            case "G":
+                uri = "@drawable/giraffe";
+                animal = "Giraffe";
+                break;
+            case "H":
+                uri = "@drawable/horse";
+                animal = "Horse";
+                break;
+            case "I":
+                uri = "@drawable/iguana";
+                animal = "Iguana";
+                break;
+            case "J":
+                uri = "@drawable/jellyfish";
+                animal = "Jellyfish";
+                break;
+            case "K":
+                uri = "@drawable/koala";
+                animal = "Koala";
+                break;
+            case "L":
+                uri = "@drawable/lion";
+                animal = "Lion";
+                break;
+            case "M":
+                uri = "@drawable/monkey";
+                animal = "Monkey";
+                break;
+            case "N":
+                uri = "@drawable/newt";
+                animal = "Newt";
+                break;
+            case "O":
+                uri = "@drawable/owl";
+                animal = "Owl";
+                break;
+            case "P":
+                uri = "@drawable/pig";
+                animal = "Pig";
+                break;
+            case "Q":
+                uri = "@drawable/quail";
+                animal = "Quail";
+                break;
+            case "R":
+                uri = "@drawable/raccoon";
+                animal = "Raccoon";
+                break;
+            case "S":
+                uri = "@drawable/seagull";
+                animal = "Seagull";
+                break;
+            case "T":
+                uri = "@drawable/tiger";
+                animal = "Tiger";
+                break;
+            case "U":
+                uri = "@drawable/urchin";
+                animal = "Urchin";
+                break;
+            case "V":
+                uri = "@drawable/vulture";
+                animal = "Vulture";
+                break;
+            case "W":
+                uri = "@drawable/whale";
+                animal = "Whale";
+                break;
+            case "X":
+                uri = "@drawable/xrayfish";
+                animal = "X-ray Fish";
+                break;
+            case "Y":
+                uri = "@drawable/yak";
+                animal = "Yak";
+                break;
+            case "Z":
+                uri = "@drawable/zebra";
+                animal = "Zebra";
+                break;
         }
         int imageResource = getResources().getIdentifier(uri,null,getPackageName());
         imageview = findViewById(R.id.imageView);
